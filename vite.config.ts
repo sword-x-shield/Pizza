@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import path from "path"
-
+import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,7 +9,7 @@ export default defineConfig({
     alias: [
       { find: '@/components', replacement: path.resolve('./src/components') },
       { find: '@/utils', replacement: path.resolve('./src/utils') },
-      { find: '@/assets', replacement: path.resolve('./src/assets') },
+      { find: '@/assets', replacement: path.resolve('./src/assets') }
     ]
   }
 })
