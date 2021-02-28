@@ -42,6 +42,7 @@
   },
   "lint-staged": {
     "*.vue": "eslint --ext .vue --fix",
+    "*.ts": "eslint --fix",
     "*.js": "eslint --fix"
   }
 }
