@@ -7,9 +7,11 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: [
+      { find: '@/views', replacement: path.resolve('./src/views') },
       { find: '@/components', replacement: path.resolve('./src/components') },
       { find: '@/utils', replacement: path.resolve('./src/utils') },
-      { find: '@/assets', replacement: path.resolve('./src/assets') }
+      { find: '@/assets', replacement: path.resolve('./src/assets') },
+      { find: '@/styles', replacement: path.resolve('./src/styles') }
     ]
   }
 })
