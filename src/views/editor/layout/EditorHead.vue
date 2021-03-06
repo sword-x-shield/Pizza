@@ -1,7 +1,7 @@
 <template>
   <header class="pageHeader_container">
     <div class="pageHeader_icon--container">
-      <a class="pageHeader_icon">Pizza</a>
+      <a class="pageHeader_icon" href="/">Pizza</a>
     </div>
   </header>
 </template>
@@ -38,7 +38,7 @@ export default defineComponent({
   letter-spacing: 2px;
   &:not([data-plaintext]) {
     padding-left: 56px;
-    background: url('../../../assets/Pizza.png') no-repeat 0 / contain;
+    background: url('../../../assets/Pizza-Light.svg') no-repeat 0 / contain;
   }
 }
 </style>
