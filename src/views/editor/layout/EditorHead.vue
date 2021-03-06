@@ -38,7 +38,7 @@ export default defineComponent({
   letter-spacing: 2px;
   &:not([data-plaintext]) {
     padding-left: 56px;
-    background: url('../../../assets/Pizza-Light.svg') no-repeat 0 / contain;
+    background: url('../../../assets/svg/Pizza-Light.svg') no-repeat 0 / contain;
   }
 }
 </style>

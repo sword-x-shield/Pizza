@@ -1,0 +1,24 @@
+{
+  "language": "English",
+  "platform":"Welcome To Pizza 🍕 A Low Code Platform",
+  "quick":"Quick Start",
+  "case":"Access to the case",
+  "features":{
+    "Simple":{
+      "dt":"Simple",
+      "dd":"Just drag the mouse to build the page"
+    },
+    "Diverse":{
+      "dt":"Diverse",
+      "dd":"Provide business components for different scenarios"
+    },
+    "Reusable":{
+      "dt":"Reusable",
+      "dd":"Reuse pages by saving custom template configurations"
+    },
+    "Obvious":{
+      "dt":"Obvious",
+      "dd":"Allows users to preview the template built online"
+    }
+  }
+}
