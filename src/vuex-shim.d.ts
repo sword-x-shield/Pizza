@@ -1,6 +1,6 @@
 import { ComponentCustomProperties } from 'vue'
 import { Store } from 'vuex'
-import {StateType} from "./store/types"
+import { StateType } from "./store/types"
 
 declare module '@vue/runtime-core' {
   // Declare your own store states.
