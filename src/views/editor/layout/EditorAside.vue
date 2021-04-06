@@ -1,6 +1,6 @@
 <template>
   <aside class="editor_aside">
-    drag components
+    drag components asidea
   </aside>
 </template>
 <script lang="ts">
